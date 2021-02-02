@@ -12,8 +12,14 @@ module.exports = {
       'brand': '#F7941E'
      }),
      height: {
-      brand: '43.75px'
-     }
+      brand: '700px'
+     },
+     borderColor: theme => ({
+      ...theme('colors'),
+       DEFAULT: theme('colors.gray.300', 'currentColor'),
+      'brand': '#F7941E'
+      
+     })
     },
   },
   variants: {
